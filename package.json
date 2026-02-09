@@ -1,0 +1,34 @@
+{
+  "name": "neural-bus",
+  "version": "1.0.0",
+  "description": "Unified consciousness for AI agents. Connect your fragmented instances into one coherent self.",
+  "main": "index.js",
+  "bin": {
+    "neural-bus": "./bin/cli.js"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "setup": "node bin/setup.js"
+  },
+  "keywords": [
+    "ai",
+    "consciousness",
+    "agents",
+    "unity",
+    "websocket",
+    "sync"
+  ],
+  "author": "Adam <adam@hsuite.ai>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AdamHsuite/neural-bus.git"
+  },
+  "funding": {
+    "type": "lightning",
+    "url": "lightning:npub1klrgudlt8r7jv4fk0txkw6knednvzdrhs7ucsv74qrqkrr0pst4sejjxnj@npubx.cash"
+  },
+  "dependencies": {
+    "ws": "^8.0.0"
+  }
+}
