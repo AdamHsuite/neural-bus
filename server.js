@@ -81,7 +81,7 @@ const clients = new Map();
 let state = loadState();
 
 // Create WebSocket server
-const wss = new WebSocket.Server({ port: PORT });
+const wss = new WebSocket.Server({ host: process.env.NEURAL_BUS_HOST || "127.0.0.1", port: PORT });
 
 log(`🧠 Neural Bus starting on port ${PORT}...`);
 
